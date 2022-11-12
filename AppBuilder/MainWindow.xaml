@@ -1,0 +1,19 @@
+﻿<Window x:Class="AppBuilder.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppBuilder"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="namespaceLAB" Content="Namespace" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="namespaceTB" HorizontalAlignment="Left" Margin="16,34,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="403"/>
+        <Label x:Name="openFileLAB" Content="Browse File" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="openFileTB" HorizontalAlignment="Left" Margin="16,84,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="365"/>
+        <Button x:Name="openFileBTN" Content="..." HorizontalAlignment="Center" Margin="0,83,0,0" VerticalAlignment="Top" Width="26" Click="openFileBTN_Click"/>
+        <Button x:Name="generateBTN" Content="Generate" HorizontalAlignment="Left" Margin="14,118,0,0" VerticalAlignment="Top" Width="68" Click="generateBTN_Click"/>
+        <TextBox Text="TextBox" TextWrapping="Wrap" Margin="0,158,387,0"/>
+
+    </Grid>
+</Window>
